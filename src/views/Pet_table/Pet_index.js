@@ -16,8 +16,7 @@ function PetTable() {
 
   const columns = [
       { title: "PetName", field: "PetName" },
-      { title: "Breed", field: "Breed" },
-      { title: "Gender", field: "Gender" },
+      { title: "Color", field: "Color" },
   ];
   
   const fetchData = async (query) => {
@@ -83,7 +82,7 @@ function PetTable() {
     <div className="product-container">
       <MuiTable
         tableRef={tableRef}
-        title="Form"
+        title="Entity_Table"
         cols={columns}
         data={fetchData}
         size={5}

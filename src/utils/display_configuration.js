@@ -8,15 +8,8 @@ Details: [
       required: true
     },
     {
-      key: "Breed",
-      value: "Breed",
-      type: "text",
-      editable: false,
-      required: true
-    },
-    {
-      key: "Gender",
-      value: "Gender",
+      key: "Color",
+      value: "Color",
       type: "text",
       editable: false,
       required: true
